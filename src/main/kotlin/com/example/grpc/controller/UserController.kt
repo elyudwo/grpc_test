@@ -1,4 +1,4 @@
-package com.example.grpc.service
+package com.example.grpc.controller
 
 import com.example.grpc.proto.User
 import com.example.grpc.proto.UserRequest
