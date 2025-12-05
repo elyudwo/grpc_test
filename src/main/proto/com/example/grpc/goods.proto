@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+message Goods {
+  string name = 1;
+  int32 price = 2;
+}
+
+message GoodsRequest {
+  string goods_name = 1;
+}
+
+service GoodsService {
+  rpc GetGoods(GoodsRequest) returns (Goods);
+}
