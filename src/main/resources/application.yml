@@ -5,3 +5,12 @@ spring:
 grpc:
   server:
     port: 9090
+  client:
+    # UserService 클라이언트 설정
+    user-service:
+      address: 'static://localhost:9090'
+      negotiationType: plaintext
+    # GoodsService 클라이언트 설정
+    goods-service:
+      address: 'static://localhost:9090'
+      negotiationType: plaintext

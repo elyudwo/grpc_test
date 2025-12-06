@@ -1,0 +1,8 @@
+
+### userService 호출
+GET http://localhost:8080/api/grpc-client/user/1
+
+### goodsService 호출
+GET http://localhost:8080/api/grpc-client/goods/top
+
+
